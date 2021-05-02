@@ -37,6 +37,15 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "prettier": {
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": false
+  },
   "browserslist": {
     "production": [
       "last 1 chrome version"
