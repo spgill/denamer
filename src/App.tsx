@@ -1,7 +1,13 @@
 import React from "react";
+// import { BrowserWindow } from "electron";
+const electron = require("electron");
 
 const App: React.FC = () => {
-  return <p>hewwo, world</p>;
+  return (
+    <>
+      <button onClick={() => electron}>exit</button>
+    </>
+  );
 };
 
 export default App;
